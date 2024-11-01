@@ -1,0 +1,61 @@
+#mainform .btn-connect-payment {
+    color: #fff;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    box-shadow: none;
+}
+
+#mainform .btn-disconnect-payment {
+    color: #fff;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    box-shadow: none;
+}
+
+#toast-container .toast{
+    opacity: 1;
+}
+
+a.btn-connected {
+    pointer-events: none;
+    text-decoration: unset;
+    color: #28a745;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.connect-btn-section {
+    display: block;
+    position: relative;
+}
+
+img.loader-test-class, img.loader-live-class {
+    height: 25px;
+    position: absolute;
+    left: 3%;
+    top: 2px;
+    display: none;
+}
+
+.disconnect-btn-section {
+    display: block;
+    position: relative;
+}
+
+img.loader-disconnect-class {
+    height: 25px;
+    position: absolute;
+    left: 52px;
+    top: 2px;
+    display: none;
+}
+
+.tunl_token_class {
+    display: none;   
+}
+
+.live_tunl_class,
+.sandbox_tunl_class {
+    display: none;
+}
